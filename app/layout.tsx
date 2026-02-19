@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Saluna Consulting | Soluciones Empresariales Tecnológicas",
   description:
     "Saluna Consulting ofrece soluciones empresariales tecnológicas: integración de sistemas, automatización de procesos y desarrollo estratégico.",
-  metadataBase: new URL("https://saluna.es"),
+metadataBase: new URL("https://salunait.es"),
   openGraph: {
     title: "Saluna Consulting | Soluciones Empresariales Tecnológicas",
     description:
