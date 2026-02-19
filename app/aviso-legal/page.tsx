@@ -1,8 +1,8 @@
 import LegalTopBar from "../../components/LegalTopBar";
 
 export const metadata = {
-  title: "Aviso Legal | Saluna Consulting",
-  description: "Aviso legal de Saluna Consulting. Información sobre titularidad, condiciones de uso y responsabilidad.",
+  title: "Aviso Legal | Saluna IT Consulting",
+  description: "Aviso legal de Saluna IT Consulting. Información sobre titularidad, condiciones de uso y responsabilidad.",
 };
 
 export default function AvisoLegal() {
@@ -36,13 +36,13 @@ export default function AvisoLegal() {
         <h2 className="text-2xl font-semibold text-white mt-10">Propiedad intelectual</h2>
         <p>
           Todos los contenidos del sitio web, incluyendo textos, imágenes,
-          diseño, logotipos y código fuente, son propiedad de Saluna Consulting
+          diseño, logotipos y código fuente, son propiedad de Saluna IT Consulting
           o cuentan con las licencias correspondientes.
         </p>
 
         <h2 className="text-2xl font-semibold text-white mt-10">Responsabilidad</h2>
         <p>
-          Saluna Consulting no se hace responsable del mal uso de los contenidos
+          Saluna IT Consulting no se hace responsable del mal uso de los contenidos
           del sitio web ni de posibles daños derivados del acceso o uso del mismo.
         </p>
       </section>

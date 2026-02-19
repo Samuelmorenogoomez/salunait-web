@@ -14,13 +14,13 @@ export default function PoliticaPrivacidad() {
 
       <section className="space-y-6">
         <p>
-          En Saluna Consulting nos comprometemos a garantizar la privacidad
+          En Saluna IT Consulting nos comprometemos a garantizar la privacidad
           de los datos personales conforme al Reglamento (UE) 2016/679 (RGPD).
         </p>
 
         <h2 className="text-2xl font-semibold text-white mt-10">Responsable del tratamiento</h2>
         <p>
-          El responsable del tratamiento de los datos es Saluna Consulting.
+          El responsable del tratamiento de los datos es Saluna IT Consulting.
         </p>
 
         <h2 className="text-2xl font-semibold text-white mt-10">Finalidad del tratamiento</h2>
@@ -45,7 +45,7 @@ export default function PoliticaPrivacidad() {
         <h2 className="text-2xl font-semibold text-white mt-10">Derechos del usuario</h2>
         <p>
           Puede ejercer sus derechos de acceso, rectificación, supresión,
-          oposición y portabilidad enviando un correo a contacto@saluna.es.
+          oposición y portabilidad enviando un correo a contacto@salunait.es.
         </p>
       </section>
     </main>

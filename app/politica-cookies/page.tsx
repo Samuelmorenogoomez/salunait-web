@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Política de Cookies | Saluna Consulting",
+  title: "Política de Cookies | Saluna IT Consulting",
   description:
-    "Política de cookies de Saluna Consulting conforme a la normativa española y europea (RGPD y LSSI).",
+    "Política de cookies de Saluna IT Consulting conforme a la normativa española y europea (RGPD y LSSI).",
 };
 
 export default function PoliticaCookiesPage() {
@@ -45,7 +45,7 @@ export default function PoliticaCookiesPage() {
       <h1 style={{ fontSize: 32, marginBottom: 24 }}>Política de Cookies</h1>
 
       <p>
-        En Saluna Consulting utilizamos cookies con el objetivo de garantizar el
+        En Saluna IT Consulting utilizamos cookies con el objetivo de garantizar el
         correcto funcionamiento del sitio web, mejorar la experiencia del usuario
         y, en su caso, analizar el tráfico y el comportamiento de navegación.
       </p>
@@ -102,7 +102,7 @@ export default function PoliticaCookiesPage() {
 
       <h2 style={{ marginTop: 32 }}>Actualizaciones</h2>
       <p>
-        Saluna Consulting podrá actualizar la presente Política de Cookies en
+        Saluna IT Consulting podrá actualizar la presente Política de Cookies en
         función de exigencias legislativas o técnicas. Se recomienda revisar
         periódicamente este documento.
       </p>

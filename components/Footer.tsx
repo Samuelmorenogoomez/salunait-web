@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
 
         <div style={{ opacity: 0.6 }}>
-          © {new Date().getFullYear()} Saluna Consulting. Todos los derechos reservados.
+          © {new Date().getFullYear()} Saluna IT Consulting. Todos los derechos reservados.
         </div>
       </div>
     </footer>
