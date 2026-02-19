@@ -52,6 +52,7 @@ export default function Home() {
 
   return (
     <>
+    
       {/* HEADER */}
       <header
         className={`fixed top-0 w-full z-50 transition-all duration-300 ${
@@ -400,10 +401,6 @@ export default function Home() {
             </a>
           </div>
         </section>
-
-        <footer className="border-t border-white/10 py-10 text-center text-slate-400 text-xs sm:text-sm">
-          © {new Date().getFullYear()} Saluna IT · All rights reserved
-        </footer>
       </main>
     </>
   );

@@ -1,27 +1,35 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import CookieBanner from "../components/CookieBanner";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Saluna IT — Soluciones tecnológicas para empresas",
+  title: "Saluna Consulting | Soluciones Empresariales Tecnológicas",
   description:
-    "Consultoría IT, desarrollo web, automatización e infraestructura. Saluna IT, tu partner tecnológico.",
+    "Saluna Consulting ofrece soluciones empresariales tecnológicas: integración de sistemas, automatización de procesos y desarrollo estratégico.",
+  metadataBase: new URL("https://saluna.es"),
   openGraph: {
-    title: "Saluna IT",
+    title: "Saluna Consulting | Soluciones Empresariales Tecnológicas",
     description:
-      "Consultoría IT, desarrollo web, automatización e infraestructura para empresas.",
+      "Consultoría tecnológica especializada en soluciones empresariales.",
+    url: "https://saluna.es",
+    siteName: "Saluna Consulting",
+    locale: "es_ES",
     type: "website",
   },
   icons: {
-    icon: "/favicon.ico", // si no tienes favicon.ico, no pasa nada
+    icon: "/favicon.ico",
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
-      <body className="min-h-screen text-slate-100">{children}</body>
+      <body>
+        {children}
+        <Footer />
+        <CookieBanner />
+      </body>
     </html>
   );
 }
