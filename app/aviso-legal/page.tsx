@@ -20,10 +20,10 @@ export default function AvisoLegal() {
         </p>
 
         <ul className="list-disc pl-6 space-y-2">
-          <li><strong>Marca comercial:</strong> Saluna Consulting</li>
+          <li><strong>Marca comercial:</strong> Saluna IT Consulting</li>
           <li><strong>Actividad:</strong> Consultoría tecnológica y soluciones empresariales</li>
-          <li><strong>Email de contacto:</strong> contacto@saluna.es</li>
-          <li><strong>Dominio:</strong> https://saluna.es</li>
+          <li><strong>Email de contacto:</strong> contacto@salunait.es</li>
+          <li><strong>Dominio:</strong> https://salunait.es</li>
         </ul>
 
         <h2 className="text-2xl font-semibold text-white mt-10">Condiciones de uso</h2>
