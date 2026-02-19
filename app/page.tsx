@@ -284,7 +284,8 @@ export default function Home() {
         </section>
 
         {/* SERVICIOS */}
-        <section id="servicios" className="py-18 sm:py-28 border-t border-white/10">
+        <section id="servicios" className="pt-20 sm:pt-28 pb-16 sm:pb-28 border-t border-white/10"
+>
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <h2 className="text-2xl sm:text-3xl font-semibold">Servicios</h2>
 
@@ -298,7 +299,8 @@ export default function Home() {
         </section>
 
         {/* CÓMO TRABAJAMOS */}
-        <section id="proceso" className="py-18 sm:py-28 border-t border-white/10">
+        <section id="proceso" className="pt-20 sm:pt-28 pb-16 sm:pb-28 border-t border-white/10"
+>
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <h2 className="text-2xl sm:text-3xl font-semibold">Cómo trabajamos</h2>
 
@@ -320,7 +322,8 @@ export default function Home() {
         </section>
 
         {/* TECNOLOGÍA */}
-        <section id="tecnologia" className="py-18 sm:py-28 border-t border-white/10">
+        <section id="tecnologia" className="pt-20 sm:pt-28 pb-16 sm:pb-28 border-t border-white/10"
+>
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <h2 className="text-2xl sm:text-3xl font-semibold">Arquitectura & Stack</h2>
 
@@ -334,9 +337,10 @@ export default function Home() {
         </section>
 
         {/* ENFOQUE */}
-        <section id="enfoque" className="py-18 sm:py-28 border-t border-white/10">
+        <section id="enfoque" className="pt-20 sm:pt-28 pb-16 sm:pb-28 border-t border-white/10"
+>
           <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-            <h2 className="text-2xl sm:text-3xl font-semibold">
+            <h2 className="text-2xl sm:text-3xl font-semibold mt-4 sm:mt-0">
               Enfoque técnico con mentalidad empresarial
             </h2>
 
